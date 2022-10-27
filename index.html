@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="./script.js"></script> -->
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container" class="container">
+        <div id="form-container" class="form-container">
+            <form id="character-form" class="character-form">
+                <fieldset>Choose your character</fieldset>
+                <label for="username">Choose a name for your character:</label>
+                <input type="text" class="username" id="username">
+                <br>
+                <label for="gender">Choose a gender:</label>
+                <br>
+                <select id="gender" name="gender">
+                    <option value="">Gender</option>
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                </select>
+                <br>
+                <label for="race">Choose a race: </label>
+                <br>
+                <select name="race" id="race">
+                    <option value="">Race</option>
+                    <option value="Bugbear">Bugbear</option>
+                    <option value="Dhampir">Dhampir</option>
+                    <option value="Centaur">Centaur</option>
+                </select>
+                <br>
+                <label for="race">Choose a class: </label>
+                <br>
+                <select name="class" id="class">
+                    <option value="">Class</option>
+                    <option value="Mogis">Mogis</option>
+                    <option value="Phenax">Phenax</option>
+                    <option value="Zehir">Zehir</option>
+                </select>
+            </form>
+        </div>
+        <div id="character-sheet" class="character-sheet">
+            <div id="character-name">
+            </div>
+            <img id="gender-img" src="">
+            <img id="race-img" src="">
+            <img id="class-img" src="">
+        </div>
+    </div>
+
+    <input placeholder="Enter some text" name="name" />
+    <p id="values"></p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
